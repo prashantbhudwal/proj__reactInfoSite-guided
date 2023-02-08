@@ -1,10 +1,27 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-function Page() {
-  const page = (
+function Header() {
+  return (
+    <header>
+      <nav>
+        <img src="/src/assets/react-logo.png" alt="" width="30px" />
+        <h2>ReactFacts</h2>
+      </nav>
+    </header>
+  );
+}
+function Footer() {
+  return (
+    <footer>
+      <p>© 2022. All rights reserved.</p>
+    </footer>
+  );
+}
+
+function Main() {
+  return (
     <div>
-      <img src="/src/assets/react-logo.png" alt="" />
       <h1>Fun facts about React</h1>
       <ul>
         <li>First released in 2013</li>
@@ -15,8 +32,16 @@ function Page() {
       </ul>
     </div>
   );
+}
 
-  return page;
+function Page() {
+  return (
+    <div>
+      <Header />
+      <Main />
+      <Footer />
+    </div>
+  );
 }
 
 const rootEl = document.getElementById("root") as HTMLElement;
