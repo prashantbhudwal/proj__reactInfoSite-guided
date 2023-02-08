@@ -3,7 +3,16 @@
 }
 
 body {
-    font-family: "Inter";
     padding: 0;
     margin: 0;
+}
+
+.app__container {
+    font-family: "Inter";
+    height: 100vh;
+    background: hsla(217, 14%, 18%, 1);
+    color: whitesmoke;
+    background-image: url("/src/assets/react-icon-large.png");
+    background-repeat: no-repeat;
+    background-position: 100% 70%;
 }

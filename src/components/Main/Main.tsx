@@ -2,9 +2,9 @@ import "./Main.css";
 
 function Main() {
   return (
-    <div>
-      <h1>Fun facts about React</h1>
-      <ul>
+    <div className="main__container">
+      <h1 className="main__heading">Fun facts about React</h1>
+      <ul className="main__list">
         <li>First released in 2013</li>
         <li>Created by Jordan Walke</li>
         <li>100K+ stars on Github</li>

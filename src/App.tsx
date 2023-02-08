@@ -7,10 +7,9 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className="app__container">
       <Header />
       <Main />
-      <Footer />
     </div>
   );
 }

@@ -1,0 +1,20 @@
+.main__container {
+    padding: 2em;
+
+}
+
+.main__heading {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.main__list {
+    font-size: x-large;
+    line-height: 2em;
+}
+
+.main__list>li::marker {
+    font-size: xx-large;
+    color: hsla(193, 95%, 68%, 1);
+    ;
+}
