@@ -1,0 +1,22 @@
+.logo {
+    width: 30px;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: 100%;
+    background: hsla(233, 12%, 15%, 1);
+    color: hsla(193, 95%, 68%, 1);
+    padding: 0.5em 2em;
+}
+
+.siteName {
+    margin-right: auto;
+    font-weight: 600;
+}
+
+.siteDesc {
+    font-weight: 400;
+}
